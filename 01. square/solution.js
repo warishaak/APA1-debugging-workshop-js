@@ -1,6 +1,7 @@
 function square(num) {
-  num * 2;
+  return num * num;
 }
+console.log(square(5));
 
 module.exports = { square };
 
